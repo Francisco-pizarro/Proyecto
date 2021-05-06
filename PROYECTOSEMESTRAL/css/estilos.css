@@ -1,0 +1,26 @@
+.formulario{
+    width: 50%;
+    margin-left: 25%;
+    
+}
+
+.campo {
+    position: relative;
+}
+label {
+    width: 100%;
+}
+input {
+    width: 100%;
+    padding: 7px;
+}
+
+.campo span {
+    position: absolute;
+    right: 5px;
+    top: 39px;
+    cursor: pointer;
+    padding: 2px 10px;
+    background-color: #ffffff;
+}
+

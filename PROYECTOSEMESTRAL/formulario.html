@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/estilos.css" />
+</head>
+<body >
+    <br>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <a class="navbar-brand" href="#">Navegador</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="formulario.html">Formulario</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <!-- Formulario -->
+        <br>
+        <div class="formulario">
+            <div class="form-group">
+              <label>Usuario</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="txt_usuarior">
+              </div>
+            </div>
+            <div class="campo">
+                <div class="form-group">
+                <label>Contraseña</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="txt_contrasena">
+                    <span>Mostrar</span>
+                </div>
+                </div>
+        
+                <div class="form-group">
+                    <label>Confirmar contraseña</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="txt_confirmar">
+                            <span>Mostrar</span>
+                        </div>
+                </div>
+            </div>
+    <!-- Motivos -->
+                <div class="form-group">
+                <label>Seleccione Motivo</label>
+                <select class="form-control" id="cmb_motivo">
+                  <option>-- Seleccione --</option>
+                  <option>Asalto</option>
+                  <option>Pérdida de Documentos</option>
+                  <option>Pérdida de Mascota</option>
+                </select>
+              </div>
+
+              <textarea name="comentarios" rows="10" cols="40" placeholder="Escribe tu comentario"></textarea>
+
+    <!-- Prioridades -->
+            <div class="form-group">
+              <label>Prioridad </label>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="rdnBoton1" value="alta" checked>
+                  <label class="form-check-label" for="gridRadios1">
+                    Alta
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="rdnBoton2" value="media">
+                  <label class="form-check-label" for="gridRadios2">
+                    Media
+                  </label>
+                </div>
+                <div class="form-check disabled">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="rdnBoton3" value="baja">
+                  <label class="form-check-label" for="gridRadios3">
+                    Baja
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-sm-10">
+                <button id="btn_aceptar" type="button" class="btn btn-danger">Aceptar</button>
+              </div>
+            </div>
+        </div>
+
+        
+
+    
+</body>
+
+<script src="js/funciones.js"></script>
+</html>
